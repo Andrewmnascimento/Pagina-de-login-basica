@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body{
+    font-family: "PT sans", serif;
+    background-color: blanchedalmond;
+    color: #121212;
+}
+.form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    top: 5rem;
+    border: #121212 solid 3px;
+    border-radius: 50%;
+    width: 25rem;
+    height: 25rem;
+}
+.form-container input{
+    background-color: #121212;
+    color: white;
+}
+.form-container .button{
+    align-self: center;
+    justify-content: space-around;
+    display: flex;
+    border: #121212 solid 2px;
+    border-radius: 8px;
+    
+}

@@ -1,0 +1,64 @@
+/* Reset CSS - Um reset moderno e confiável */
+
+/* Remove margens e paddings padrão */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Ajusta a tipografia para melhor legibilidade */
+html {
+    font-size: 16px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Remove decorações padrão de links */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Normaliza botões e inputs */
+button, input, select, textarea {
+    font: inherit;
+    border: none;
+    background: none;
+    outline: none;
+}
+
+button {
+    cursor: pointer;
+}
+
+/* Ajuste para imagens e mídias */
+img, video, svg {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Remove estilos de lista padrão */
+ul, ol {
+    list-style: none;
+}
+
+/* Garante que tabelas tenham um layout colapsado */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+/* Define altura mínima para garantir que o conteúdo sempre ocupe a tela toda */
+html, body {
+    min-height: 100vh;
+}
